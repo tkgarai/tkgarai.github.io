@@ -1,0 +1,431 @@
+/**** Site Layout ***/
+
+body {
+    font: 16px Calibri, Helvetica, Arial, Sans-serif;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#container {
+    width: 100%;
+    clear: both;
+    float: left;
+    padding: 20px 0 0 0;
+}
+
+
+
+/**** HEADINGS ***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+    clear: both;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    color: #d6dc18;;
+    padding-bottom: 10px;
+}
+
+#header h1 {
+    text-align: center;
+    right: 166px;
+    top: 33px;
+    font: normal 28px calibri;
+    position: absolute;
+    color: #d6dc18;
+    font-weight: bold;
+}
+
+
+
+/**** HEADER ***/
+
+#header {
+    padding: 0;
+    height: 140px;
+    background-color: #366c67;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+#logo {
+    display: block;
+    width: 282px;
+    padding-left: 13%;
+    padding-top: 3%;
+}
+
+ul#smallmenu {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+#smallmenu li {
+    float: left;
+    padding-right: 15px;
+    margin: 0px;
+    background: transparent url(img/topmenulogo.png) no-repeat 0 5px;
+}
+
+#smallmenu li a {
+    padding-left: 25px;
+    font: 12px/22px arial;
+    text-decoration: underline;
+    color: #c5c5c5;
+}
+
+#smallmenu li a:hover {
+    text-decoration: none;
+}
+
+/*******/
+
+
+/**** NAV ***/
+
+
+ul#nav {
+    right: 18px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    top: 91px;
+    position: absolute;
+    list-style-type: none;
+    padding-right: 13%;
+}
+
+ul#nav li {
+    float: left;
+    padding: 0 0 0 25px;
+    margin: 0;
+}
+
+ul#nav li a {
+    display: block;
+    list-style-type: none;
+    height: 26px;
+    padding: 2px;
+    text-decoration: none;
+    color: #eeb33b;
+}
+
+ul#nav li a:hover {
+    color: #fff9ec;
+    background: url(img/triangle.png) no-repeat center bottom;
+}
+
+#nav #selected a {
+    background: url(img/triangle.png) no-repeat center bottom;
+    color: white;
+}
+/*******/
+/**** SIDEBAR ***/
+.sidebar {
+    width: 400px;
+    float: left;
+    margin: 3px solid;
+    padding-bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0;
+}
+
+#labzone {
+    background-color: #f0e8ce;
+    margin: 0;
+    padding: 10px;
+}
+
+#labzone p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262626;
+}
+
+#contact {
+    background-color: #dfe477;
+    margin-top: 0px;
+    padding: 5px;
+}
+
+#contact .date {
+    text-transform: uppercase;
+    font: bold 10px/21px arial;
+    color: #4b6a64;
+    padding: 0;
+}
+
+#contact p {
+    font: 10px/21px calibri;
+    color: black;
+    padding-bottom: 20px;
+}
+
+#contact a {
+    color: #4b6a64;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+
+
+/*******/
+
+
+
+/**** CONTENT ***/
+.content {
+    position: relative;
+    float: left;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+}
+
+#slideshow {
+    float: left;
+    width: 622px;
+    height: 302px;
+    padding: 0 0 0px 35px;
+    position: relative;
+}
+
+#newszone {
+    background-color: #CCC;
+    margin: 0 0 20px 0;
+    float: left;
+    width: 960px;
+    padding: 0 0 0 15px;
+    height: 350px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+#newszone .date {
+    text-transform: uppercase;
+    font: bold 12px/21px arial;
+    color: #900;
+    padding: 0;
+}
+
+#newszone p {
+    font: 10px/21px calibri;
+    color: #333;
+    padding-bottom: -4px;
+}
+
+#newszone a {
+    color: #FC6;
+}
+
+#newszone a:hover {
+    text-decoration: none;
+}
+
+#container img {
+    border: 0px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.content p.featured {
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#container p {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 4px;
+    color: black;
+    text-emphasis: disc;
+}
+
+#container a {
+    color: #366c67;
+}
+
+#container a:hover {
+    text-decoration: none;
+}
+
+.button {
+    position: absolute;
+    height: 27px;
+    text-align: center;
+    width: 194px;
+    background: url(img/button.png) no-repeat;
+    color: #eeb43b;
+    left: 230px;
+    top: 1px;
+}
+
+#container a.button {
+    padding-top: 2px;
+    text-decoration: none;
+    text-shadow: 0px 1px #303030;
+    color: #eeb43b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.button:visited {
+    color: #eeb43b;
+}
+
+a:hover.button {
+    text-decoration: underline;
+}
+
+/*******/
+
+
+
+
+
+
+/**** FOOTER ***/
+
+footer {
+    /* background-image: url(img/background.jpg) repeat-x;  */
+    background-color: #366c67;
+    clear: both;
+    height: 80px;
+    margin-bottom:0% ;
+}
+
+#footercontent {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+}
+
+#leftfooter {
+    float: left;
+}
+
+p#leftfooter h4 {
+    font-size: 12px;
+    color: rgb(146, 164, 9);
+    padding: 10px 0;
+}
+
+#design a {
+    text-decoration: underline;
+    font-size: 10px;
+    color: #999;
+}
+
+#design a:hover {
+    text-decoration: none;
+}
+
+ul#navfooter {
+    position: relative;
+    float: right;
+    margin: 0 auto;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+ul#navfooter li {
+    float: left;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+
+ul#navfooter li a {
+    padding: 0 7px 0 7px;
+    text-decoration: underline;
+    color: #eeb43b;
+}
+
+ul#navfooter li a:hover {
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    margin-bottom: 50px;
+}
+
+thread th:nth-child(1) {
+    width: 40%;
+}
+
+thread th:nth-child(2) {
+    width: 10%;
+}
+
+thread th:nth-child(3) {
+    width: 40%;
+}
+
+thread th:nth-child(4) {
+    width: 10%;
+}
+
+th,
+td {
+    padding: 25px;
+    text-align: center;
+}
+.proname{
+    color: blue;
+}
+.logos{
+    padding-left: 25px;
+    justify-content: flex-start;
+
+   
+}
