@@ -16,7 +16,7 @@ body {
 }
 
 #container {
-    width: 100%;
+    width: 90%;
     clear: both;
     float: left;
     padding: 20px 0 0 0;
@@ -37,7 +37,7 @@ p {
 }
 p#para {
     margin: 0;
-    padding: 20;
+    padding: 30;
     text-align: justify;
 }
 
